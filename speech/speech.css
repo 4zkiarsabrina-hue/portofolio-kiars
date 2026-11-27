@@ -1,0 +1,178 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5eeee;
+    color: #421c28;
+}
+
+.header {
+    background-color: #451421;
+    color: #f8eeee;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.eyebrow {
+    letter-spacing: 4px;
+    font-size: 11px;
+    color: #d9b9c1;
+    font-family: Arial, sans-serif;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.subtitle {
+    color: #d9b9c1;
+    font-size: 15px;
+}
+
+.gold-line {
+    width: 55px;
+    height: 2px;
+    background-color: #c5a16c;
+    margin: 25px auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.section-label {
+    color: #a16c78;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #641c2d;
+}
+
+.description {
+    line-height: 1.9;
+    font-size: 16px;
+    color: #65444d;
+}
+
+.details,
+.certificate {
+    background-color: #fffafb;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(69,20,33,0.06);
+}
+
+.details {
+    border-left: 4px solid #a16c78;
+}
+
+.card-label {
+    color: #a16c78;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.details h3 {
+    color: #641c2d;
+}
+
+.details p {
+    line-height: 1.7;
+    color: #65444d;
+}
+
+.certificate {
+    text-align: center;
+}
+
+.certificate h2 {
+    font-size: 25px;
+}
+
+.certificate-text,
+.image-note {
+    color: #896b73;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.certificate-image {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin: 25px auto;
+    border: 8px solid #f1e5e5;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.image-note {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.reflection {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.reflection p {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.9;
+    color: #80515e;
+}
+
+.back {
+    text-align: center;
+    margin: 30px 0 45px;
+}
+
+.back a {
+    display: inline-block;
+    background-color: #641c2d;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.back a:hover {
+    background-color: #8f354b;
+}
+
+footer {
+    background-color: #451421;
+    color: #d9b9c1;
+    text-align: center;
+    padding: 22px;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 29px;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 16px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
